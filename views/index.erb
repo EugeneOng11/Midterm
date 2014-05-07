@@ -1,0 +1,11 @@
+<!DOCTYPE HTML>
+<html>
+<body>
+	<% if @expenses.nil? %>
+	<% else %>
+	<% @expenses.each do |expense| %>
+	<p> <%= expense.id %>	<%=expense.name %>	<%=expense.amount %> </p> 
+	<%end%>
+	<%end%>
+</body>
+</html>

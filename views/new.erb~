@@ -1,0 +1,11 @@
+<!DOCTYPE HTML>
+<html>
+<body>
+<p> Room type: </p>
+<form name="input" action="save" method="post">
+<p> What? <input type="text" name="name"> </p>
+<p> How much? <input type="number" name="amount"> </p>
+<input type="submit" value="Submit">
+</form>
+</body>
+</html>
